@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rezervari - Chic restaurant</title>
+</head>
+<body>
+    <div class="navigatie">
+        <a href="index.html"class="logo"><img src="logo.png"></a>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html" class="portocaliu">HOME</a></li>
+                <li><a href="despre.html" class="portocaliu">DESPRE</a></li>
+                <li><a href="meniu.html" class="portocaliu">MENIU</a></li>
+                <li><a href="galerie.html" class="portocaliu">GALERIE</a></li>
+                <li><a href="contact.html" class="portocaliu">CONTACT</a></li>
+                <li><a href="rezervari.html" class="rez">REZERVARI</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="umplutura">
+
+    </div>
+    <div class="articol">
+        <div class="container">
+            <div class="titlu_mare">
+                <h3>Chic restaurant and lounge</h3>
+                <h1>~REZERVARI~</h1>
+                <p>Rezervarea se poate efectua prin intermediul formularului de mai jos, urmand ca un membru al personalului sa va contacteze pentru a confirma rezervarea. Alternativ o puteti efectua prin telefon la numarul: 0258 750 581</p>
+            </div>
+            <form action="FORMSUBMIT" method="POST" class="centr">
+                <!--Honeypot-->
+                <input type="text" name="_honey" style="display:none;">
+                <!--Disable Capcha-->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="CONTACT" />
+                <input class="chenar" type="text" placeholder="Nume" name="name" required /><br />
+                <input class="chenar" type="number" placeholder="Telefon" name="telefon" required /><br />
+                <input class="chenar" type="datetime-local" placeholder="" name="data" required /><br />
+                <input class="chenar" type="number" placeholder="Numar persoane" name="numar_persoane" required /><br />
+                <button class="send1">TRIMITE</button>
+            </form>
+        </div>
+    </div>
+    <div class="umplutura">
+
+    </div>
+    <div class="umplutura">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact - Chic restaurant</title>
+</head>
+<body>
+    <div class="navigatie">
+        <a href="index.html"class="logo"><img src="logo.png"></a>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html" class="portocaliu">HOME</a></li>
+                <li><a href="despre.html" class="portocaliu">DESPRE</a></li>
+                <li><a href="meniu.html" class="portocaliu">MENIU</a></li>
+                <li><a href="galerie.html" class="portocaliu">GALERIE</a></li>
+                <li><a href="contact.html" class="portocaliu">CONTACT</a></li>
+                <li><a href="rezervari.html" class="rez">REZERVARI</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="umplutura">
+
+    </div>
+    <div class="articol">
+        <div class="container">
+            <div class="container1">
+                <div class="stanga">
+                    <h3>Scrieti-ne!</h3>
+                    <h1>~CONTACT~</h1>
+                    <form action="FORMSUBMIT" method="POST">
+                        <!--Honeypot-->
+                        <input type="text" name="_honey" style="display:none;">
+                        <!--Disable Capcha-->
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="CONTACT" />
+                        <input class="chenar" type="text" placeholder="Nume" name="name" required /><br />
+                        <input class="chenar" type="email" placeholder="Email" name="email" required /><br />
+                        <textarea class="chenar" rows="4" cols="5" placeholder="Mesaj" name="mesaje" id></textarea><br />
+                        <button class="send">TRIMITE</button>
+                    </form>
+                </div>
+                <div class="dreaptac">
+                    <br><br><br><br>
+                    <h3>CHIC RESTAURANT AND LOUNGE</h3>
+                    <p>0258 750 581</p>
+                    <p>Restaurant.Chic2023@gmail.com</p>
+                    <br>
+                    <h3>PROGRAM</h3>
+                    <p>Luni - Duminica: 10:00 - 23:00</p>
+                    <br>
+                    <h3>ADRESA</h3>
+                    <p>Str. Alexandru Sahia Nr.15, Cugir</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="umplutura">
+
+    </div>
+    <div class="umplutura">
+
+    </div>
+</body>
+</html>

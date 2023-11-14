@@ -1,0 +1,255 @@
+﻿body {
+    margin: 0;
+    background-color: #0b1315;
+    color: #fff;
+    font-family: 'Rubik';
+}
+div{
+    display: block;
+}
+.navigatie{
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    position: fixed;
+    overflow: hidden;
+    z-index: 300;
+    background-color: #0b1315;
+    border-bottom: solid;
+    border-color: #a57c00;
+    border-width: 1px;
+}
+.umplutura{
+    height: 50px;
+}
+.logo{
+    margin-left: 100px;
+    float: left;
+}
+.nav{
+    margin-top: 20px;
+    float: right;
+    margin-right: 110px;
+}
+.nav ul{
+    margin:0;
+    padding:0;
+    display:flex;
+}
+.nav ul li{
+    list-style: none;
+}
+.portocaliu{
+    display: block;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #a57c00;
+}
+.rez{
+    margin: 10px 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+}
+.logo{
+    height: 100px;
+}
+.titlu_mare{
+    text-align: center;
+}
+.titlu_mare h1{
+    color: #a57c00;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.titlu_mare h3{
+    margin: 0px;
+    font-size: 25px;
+}
+.titlu_mare p{
+    font-size: 20px;
+}
+.pozahomerezerva{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-image: url("pozahome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.rezerv{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+}
+.articol{
+    border-bottom: solid;
+    border-color: #a57c00;
+    border-width: 1px;
+}
+.container{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 150px;
+    padding-bottom: 5%;
+}
+.container1{
+    display: flex;
+}
+.stanga{
+    width: 100%;
+    text-align: center;
+}
+h1,h3{
+    color:#a57c00;
+}
+.stanga h3{
+    font-size: 25px;
+}
+.stanga p{
+    font-size: 20px;
+}
+.stanga h1{
+    font-size: 40px;
+}
+.dreapta{
+    display: flex;
+    width: 100%;
+}
+.dreapta img{
+    width: 46%;
+    height: auto;
+    margin: 10px;
+}
+.serviciu{
+    text-align: center;
+    width: 21%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+}
+.serviciu h1{
+    color: #a57c00;
+}
+.serviciu p{
+    font-size: 20px;
+}
+.side1{
+    width: 30%;
+    padding-top: 20%;
+}
+.side1 img{
+    width: 100%;
+}
+.central{
+    width: 40%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.central p{
+    font-size: 20px;
+}
+.side2{
+    width: 30%;
+}
+.side2 img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.menu{
+    margin: 10px 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-56%, -50%);
+}
+.container2{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    padding-bottom: 5%;
+}
+.galerie{
+    column-count: 4;
+}
+.galerie img{
+    width: 100%;
+    padding: 20px;
+}
+.chenar {
+    padding: 8px 12px;
+    background-color: #0b1315;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom:20px;
+    border-color:#fff;
+    color: #fff;
+}
+textarea{
+    resize: none;
+}
+.send{
+    margin: 10px 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #fff;
+    background-color: #0b1315;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.dreaptac{
+    width: 100%;
+    text-align: center;
+}
+.centrat{
+    text-align: center;
+}
+.centr{
+    width: 100%;
+    padding-left: 9%;
+}
+.send1{
+    margin: 10px 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #fff;
+    background-color: #0b1315;
+    margin-left: 36%;
+    margin-right: 36%;
+}
